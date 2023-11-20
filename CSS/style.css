@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+background-color: beige;
+}
+
+.paragraph{
+    text-align: center;
+    color: darkgreen;
+}
+
+.heading-1{
+    text-align: center;
+    color: darkgreen;
+    margin-top: 20px;
+    
+
+}
+
+.paragraph img{
+    border-radius: 100px;
+    width: 500px;
+    height: 400px;
+    margin-top: 10px;
+    
+}
+ 
+ .flex-container{
+ display: flex;
+ justify-content: space-around;
+ margin-top: 10px;
+ flex-wrap: wrap;
+ }
+
+ h4{
+    color: darkgreen;
+    text-align: center;
+    font-style: italic;
+ }
+ .flex-container img {
+    object-fit: fill;
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 300px;
+    height: 200px;
+   
+ }
